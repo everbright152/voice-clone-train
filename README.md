@@ -6,6 +6,9 @@ This project demonstrates **Voice Cloning** – generating speech that mimics a 
 - [YouTube Tutorial](https://www.youtube.com/watch?v=3iqvBEGS2So)  
 - Used Google and AI assistance whenever I got stuck
 
+## Audio Source:
+The audio used in this project was sourced from LibriVox.org, and was used solely for experimentation and learning purposes.
+
 ## Steps Completed
 - Data Generation & Preparation  
 - Uploading Audio File  
