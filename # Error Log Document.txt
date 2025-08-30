@@ -1,0 +1,53 @@
+# Error Log Document
+
+
+1). What are all these dependencies and what's the purpose of installing it like `ffmpeg-python`, `whisper`, `soundfile`, and `datasets`, along with imports like `os`, `json`, `subprocess`, `uuid`, `torch`, `glob`, and `Path`.
+
+2).I tried `from google.collab import files` and got a `ModuleNotFoundError` due to a typo (`collab` instead of `colab`).
+
+3). What's VRAM, Orpheous, CSM_1B, TTS, And also I was unfamiliar about how to use Google Collab.
+
+4).Setting up path for uploading files.
+
+5). Since I used a single uploaded file while the instructor used six YouTube files. Both have different ways of uploading. As well as, I tried to write each & every function & step according to my One uploaded file, Not creating loops for six. It caused Problems.
+
+6). I was not having idea about batch processing & transcribing. 
+
+7). `CalledProcessError` during cleaning
+I encountered FFmpeg failures. I walked through checking file existence, correcting filter syntax, and capturing FFmpeg’s error output.
+
+8). I tried running FFmpeg outside the function and got a `NameError` because `src` wasn’t defined.
+
+9). I got a `CalledProcessError` when trying to extract a clip from `Voice_Cloning_Audio_Raw_clean.wav`, even though the file was present. I diagnosed path formatting issues.
+
+10). In finding purpose of temp_original_clip_path & some other functions
+
+11). My script using `subprocess` and `ffprobe` failed to extract duration from an `.mp3` file. Later, I encountered it. 
+
+12). Casting Error with `datasets.Audio`: `TypeError: Couldn't cast array of type list<item: list<item: float>> to struct<bytes: binary, path: string>`.
+
+13). AttributeError: `'list' object has no attribute 'T'.
+
+14). Due to code issue : `{'array': array([array({...})])}` — double nesting.
+
+15). Waveform Shape Issues : Shapes like `()` or `(1,)` instead of `(samples,)`
+
+16). ZeroDivisionError During Push: Some entries had `sampling_rate = 0` or empty waveforms.
+
+17). ArrowInvalid: Only 1D arrays accepted
+
+18). Malformed Audio in `clip_rows` : "audio" was stored as raw tensor without conversion.
+
+19).Too Many Skipped Rows :  Many chunks had scalar or empty audio due to slicing errors.
+
+20). Dataset not loaded correctly into Hugging Face
+
+21). torchcodec installation error
+
+
+
+
+
+
+
+
