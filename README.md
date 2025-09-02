@@ -9,7 +9,7 @@ This project demonstrates **Voice Cloning** – generating speech that mimics a 
 ## Audio Source:
 The audio used in this project was sourced from LibriVox.org, and was used solely for experimentation and learning purposes.
 
-## Steps Completed
+## Steps Completed :
 - Data Generation & Preparation  
 - Uploading Audio File  
 - Audio File Cleanup & Transcribing  
